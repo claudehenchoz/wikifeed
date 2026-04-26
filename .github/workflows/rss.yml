@@ -1,0 +1,54 @@
+name: Hourly Wikipedia RSS
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Runs at minute 0 of every hour
+  workflow_dispatch: # Allows you to run it manually from the Actions tab
+
+permissions:
+  contents: write # Required to push the updated feed.xml
+
+jobs:
+  generate-feed:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout the repository
+      # fetch-depth: 2 is strictly required so Git has enough history to perform an --amend
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2 
+
+      # Step 2: Run the generator using the pre-installed Python 3 environment
+      # Execution time: ~50-100ms
+      - name: Generate RSS
+        run: python3 wikifeed.py
+
+      # Step 3: Smart Commit and Push
+      - name: Commit and Push (Smart Amend)
+        run: |
+          # Set up bot identity
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Stage the generated feed
+          git add feed.xml
+          
+          # If the feed hasn't changed at all, exit immediately to save time
+          if git diff-index --quiet HEAD; then
+            echo "No changes to feed.xml. Exiting."
+            exit 0
+          fi
+          
+          # Check the author of the most recent commit
+          LAST_AUTHOR=$(git log -1 --pretty=format:'%an')
+          
+          if [ "$LAST_AUTHOR" = "github-actions[bot]" ]; then
+            # If the bot made the last commit, safely amend it and force push
+            git commit --amend -m "chore: update hourly rss feed"
+            git push origin HEAD:${{ github.ref_name }} --force-with-lease
+          else
+            # If a human made the last commit, create a new one so we don't overwrite their work
+            git commit -m "chore: update hourly rss feed"
+            git push origin HEAD:${{ github.ref_name }}
+          fi
