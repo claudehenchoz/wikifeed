@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>Wikipedia - Daily Features &amp; News</title>
+    <link>https://en.wikipedia.org/wiki/Main_Page</link>
+    <description>Wikipedia's In The News, Featured Article, and Top 10 Most Read.</description>
+    <pubDate>Sun, 04 Oct 2026 00:12:21 +0000</pubDate>
+    <item>
+      <title>[Featured Article] Pennsylvania State Capitol</title>
+      <link>https://en.wikipedia.org/wiki/Pennsylvania_State_Capitol</link>
+      <description>The Pennsylvania State Capitol is the seat of government for the U.S. state of Pennsylvania located in downtown Harrisburg. The building was designed by architect Joseph Miller Huston in 1902 and completed in 1906 in a Beaux-Arts style with decorative Renaissance themes throughout. The capitol houses the legislative chambers for the Pennsylvania General Assembly, made up of the House of Representatives and the Senate, and the Harrisburg chambers for the Supreme and Superior Courts of Pennsylvania, as well as the offices of the Governor and the Lieutenant Governor. It is also the main building of the Pennsylvania State Capitol Complex.</description>
+      <guid>https://en.wikipedia.org/wiki/Pennsylvania_State_Capitol</guid>
+      <pubDate>Sat, 03 Oct 2026 23:22:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>[In the News] Over Saudi Arabia, the crew and passengers of Flydubai Flight 1073  avert an attempt to hijack or crash the aircraft.</title>
+      <link>https://en.wikipedia.org/wiki/Flydubai_Flight_1073</link>
+      <description>Flydubai Flight 1073 was a regularly scheduled international passenger flight operated by Flydubai from Dubai International Airport in Dubai, the United Arab Emirates (UAE) to Ben Gurion Airport near Tel Aviv, Israel. On 30 September 2026, while en route, the Boeing 737 MAX 8 broadcast the squawk code for a hijacking, diverted from its flight path, and made an emergency landing at Prince Sultan bin Abdulaziz Airport in Tabuk, Saudi Arabia. UAE officials have called the incident an attempted terrorist attack.</description>
+      <guid>https://en.wikipedia.org/wiki/Flydubai_Flight_1073</guid>
+      <pubDate>Sun, 04 Oct 2026 00:07:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>[In the News] Flooding in Bangkok and across Thailand leaves at least 23 people dead.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Bangkok_floods</link>
+      <description>On 26 September 2026 at 10:16 local time (UTC+7), a flood disaster emergency was declared in Bangkok following 48 hours of continuous heavy rain, which submerged main roads and triggered mass evacuations. Over 300 mm (12 in) of rain was recorded in certain parts of Bangkok, with floodwaters blocking traffic on main roads in 37 locations. The Bangkok Metropolitan Administration (BMA) reported that it would take two to three days to drain the floodwaters after the rain stopped. Authorities declared all 50 districts of the city a disaster zone. It was the worst flooding to affect Bangkok in 15 years.</description>
+      <guid>https://en.wikipedia.org/wiki/2026_Bangkok_floods</guid>
+      <pubDate>Sat, 03 Oct 2026 21:09:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>[In the News] Fatima Ezzahra El Mansouri is appointed the first woman prime minister of Morocco after her party's victory in the general election.</title>
+      <link>https://en.wikipedia.org/wiki/2026_Moroccan_general_election</link>
+      <description>General elections were held in Morocco on 23 September 2026 to elect all 395 members of the House of Representatives. The election was the 12th legislative election held in Morocco since independence in 1956. Voting took place under direct universal suffrage using a party-list proportional representation system.</description>
+      <guid>https://en.wikipedia.org/wiki/2026_Moroccan_general_election</guid>
+      <pubDate>Sat, 03 Oct 2026 06:14:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>[In the News] Serbian president Aleksandar Vučić resigns to run for prime minister in the upcoming parliamentary elections.</title>
+      <link>https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87</link>
+      <description>Aleksandar Vučić is a Serbian politician who served as President of Serbia from 2017 to 2026. A founding member of the Serbian Progressive Party (SNS), he previously served as President of the SNS from 2012 to 2023, First Deputy Prime Minister from 2012 to 2014, and Prime Minister of Serbia from 2014 to 2017.</description>
+      <guid>https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87</guid>
+      <pubDate>Sat, 03 Oct 2026 20:09:49 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
