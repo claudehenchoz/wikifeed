@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>Wikipedia - Daily Features &amp; News</title>
+    <link>https://en.wikipedia.org/wiki/Main_Page</link>
+    <description>Wikipedia's In The News, Featured Article, and Top 10 Most Read.</description>
+    <pubDate>Sat, 24 Oct 2026 14:59:23 +0000</pubDate>
+    <item>
+      <title>[Featured Article] Battle of Schliengen</title>
+      <link>https://en.wikipedia.org/wiki/Battle_of_Schliengen</link>
+      <description>The Battle of Schliengen took place on 24 October 1796 between the French Army of the Rhine and Moselle and the Austrian army near the village of Schliengen during the War of the First Coalition. The French army was under the command of Jean-Victor Moreau and the Austrian army was under the command of Archduke Charles of Austria. The village lies in the present-day Kreis Lörrach in Baden-Württemberg, Germany, close to the borders with Haut-Rhin (France), and the Canton of Basel-Stadt (Switzerland). During the French Revolutionary Wars, Schliengen was a strategically important location for the armies of both Republican France and Habsburg Austria. Control of the area gave either combatant access to southwestern German states and important Rhine crossings.</description>
+      <guid>https://en.wikipedia.org/wiki/Battle_of_Schliengen</guid>
+      <pubDate>Sat, 24 Oct 2026 11:34:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>[In the News] Two high-impact security vulnerabilities in PHP cause disruptions to many online services.</title>
+      <link>https://en.wikipedia.org/wiki/PHP2Shell</link>
+      <description>PHP2Shell is a pair of high-impact computer vulnerabilities in PHP versions 5.4–8.5 that allow remote code execution (RCE) by a potential malicious user to gain remote control of the website host. Their existence was publicly announced on 20 October 2026. An emergency patch for versions 8.2, 8.3, 8.4 and 8.5 and details about the vulnerabilities were released the following day, with numerous websites temporarily taken offline to apply the patches before exploits could be used.</description>
+      <guid>https://en.wikipedia.org/wiki/PHP2Shell</guid>
+      <pubDate>Sat, 24 Oct 2026 14:37:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>[In the News] A drone attack on a market in the disputed Abyei region on the South Sudan–Sudan border kills at least 220 people.</title>
+      <link>https://en.wikipedia.org/wiki/Amiet_market_massacre</link>
+      <description>On 19 October 2026, the Sudanese Armed Forces (SAF) was accused of launching a drone attack on the Amiet Common Market in Abyei, a disputed region between Sudan and South Sudan, killing at least 220 people and displacing over 8,000 others. The strike targeted a fuel depot that was reportedly used by the Rapid Support Forces (RSF), although other parts of the market were also struck, resulting in its complete destruction. A Sudanese official initially said that the strikes targeted fuel tankers that were supplying the RSF, claiming that the casualties were members of the militia and fuel smugglers. The SAF later denied involvement in the attack.</description>
+      <guid>https://en.wikipedia.org/wiki/Amiet_market_massacre</guid>
+      <pubDate>Sat, 24 Oct 2026 13:50:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>[In the News] The Hôtel de Ville in Limoges is partially destroyed by arson  amid fuel and student protests in France.</title>
+      <link>https://en.wikipedia.org/wiki/2026_French_student_protests</link>
+      <description>Demonstrations and protests against poor school and economic conditions by lycée students have taken place in France since September 2026. In early October, the protests developed into a nationwide mobilisation involving students, teachers, parents, political organizations and trade unions, with an estimated 550,000–800,000 people participating nationwide. The demonstrations are part of a wider European unrest which includes protests in Belgium, Albania, Greece, Italy, Portugal, Spain, Austria, Ireland, Serbia and Germany.</description>
+      <guid>https://en.wikipedia.org/wiki/2026_French_student_protests</guid>
+      <pubDate>Sat, 24 Oct 2026 13:34:47 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
